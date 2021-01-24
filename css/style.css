@@ -107,7 +107,9 @@ img {
   line-height: 1.25;
   margin: 15px auto;
 }
-
+.verified {
+  font-size: 13px;
+}
 /* Footer */
 .attribution {
   font-size: 11px;
