@@ -122,11 +122,16 @@ img {
 /* Respons */
 @media only screen and (max-width: 1600px) {
   .grid-container {
-    max-width: 100%;
-    margin: 6rem 4rem .5rem;
+    max-width: 90%;
+    margin: 7rem 4rem .5rem;
   }
 }
-
+@media only screen and (max-width: 1260px) {
+  .grid-container {
+    max-width: 100%;
+    margin: 6rem 2rem auto;
+  }
+}
 @media only screen and (max-width: 1172px) {
   .grid-container {
     grid-template:
